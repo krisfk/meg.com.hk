@@ -1,0 +1,316 @@
+﻿@charset "utf-8";
+*{
+margin:0;
+padding:0;
+}
+body{
+font-family: 'arial', '新細明體', sans-serif;
+min-width:1024px;
+-webkit-text-size-adjust:none;
+}
+
+#header{
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	z-index:9999;
+}
+#topbar{
+	height: 44px;
+}
+
+
+/* ==================================================
+
+ #contentsArea
+ 
+ 
+
+================================================== */
+#contentsArea{
+/*background: url(../img/bg_contents_area.jpg) no-repeat center top;
+top: 44px;*/
+width: 100%;
+position: relative;
+padding-bottom:0px;
+height:100%;
+}
+
+#container{
+background: url(../img/bg00.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#hsbcbg{
+background: url(../img/HSBC-landing.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#hksmcnybg{
+background: url(../img/banner.jpg) no-repeat center top;
+
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#cny2017bg{
+background: url(../img/cny2017_banner.png) no-repeat center top;
+
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#payment_may2017{
+background: url(../img/may2017_promotion.jpg) no-repeat center top;
+
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#a1freewaycross{
+background: url(../img/a1freewaycross.png) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#a1cnybg{
+background: url(../img/A1cny.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#tvbbg{
+background: url(../img/landingpage_TVB_A1.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#bqlbg{
+background: url(../img/bpl.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#scbbg{
+background: url(../img/SCB.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#tmhbg{
+background: url(../img/TMH.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+#eventbg{
+background: url(../img/letsmove2.jpg) no-repeat center top;
+font-size:14px;
+line-height:1.4;
+width:100%;
+height:100%;
+}
+
+/*margin:0 auto;*/
+position: relative;
+}
+
+#container a{
+color:#fff;
+}
+
+
+/* #container::maintop
+------------------------------------------- */
+#maintop{
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+	position:relative;
+}
+#menutop{
+	z-index:500;
+	top:44px;
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	position:fixed;
+	text-align:center;
+	background: url(../img/bar_top_bg.png) repeat left top;
+}
+
+/* #navArea
+------------------------------------------- */
+#navArea{
+	/*position:absolute;
+top:725px;*/
+position:absolute;
+	top: 693px;
+	margin:0px auto;
+	width: 100%;
+}
+#navArea .inner{
+width:100%;
+height:66px;
+padding-top:0px;
+}
+#navArea .globalNavi{
+width:522px;
+height:66px;
+margin:0 auto;
+padding:0 0 0 0px;
+}
+#navArea ul.globalNavi li{
+float:left;
+padding-right: 0px;
+}
+
+#navArea ul.globalNavi gg{
+float:left;
+padding-right: 0px;
+}
+/*#navArea .fixed{
+
+position:fixed;
+bottom: 60px;
+left:0;
+background:url(../images/menu_bg.png) center repeat-x;
+width: 100%;
+}*/
+
+/* #container::main
+------------------------------------------- */
+#main{
+width:100%;
+padding-top:0px;
+
+}
+#main .section01{
+width:100%;
+height:500px;
+background: url(.test222.html) no-repeat center top;
+
+}
+#main .section01 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+/*#main .section02{
+width:100%;
+height:817px;
+background: url(../img/bg02.jpg) no-repeat center top;
+}
+#main .section02 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+/*#main .section03{
+width:100%;
+height:259px;
+background: url(../img/bg03.jpg) no-repeat center top;
+}
+#main .section03 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+#main .section04{
+width:100%;
+height:315px;
+background: url(../img/bg04.jpg) no-repeat center top;
+}
+#main .section04 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+#main .section05{
+width:100%;
+height:749px;
+background: url(../img/bg05.jpg) no-repeat center top;
+}
+#main .section05 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+#main .section06{
+width:100%;
+height:923px;
+background: url(../img/bg06.jpg) no-repeat center top;
+}
+#main .section06 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+#main .section07{
+width:100%;
+height:631px;
+background: url(../img/bg07.jpg) no-repeat center top;
+}
+#main .section07 .content{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+*/
+/* Hangame footer
+---------------------------------------------------------------------- */
+#footerArea{
+position:fixed;
+bottom:0px;
+width:100%;
+border-top:0px solid;
+height:71px;
+background:url(../img/bg_low.jpg) repeat left top;
+
+}
+
+#footerArea #gcFooter:after{content:".";display:block;height:0;clear:both;visibility:hidden;background-color: none transparent;}
+#footerArea #gcFooter{
+	text-align:center;
+	position:relative;
+	width:960px;
+	height:71px;
+	margin:0 auto;
+	background: url(../img/clogo.png) center center no-repeat;
+	border-top:none;
+	padding-bottom:0;
+	padding-top:0px;
+}
+
+/* Smooth Scroll
+------------------------------ */
+#contentsArea .gotop{
+position:fixed;
+bottom:5px;
+right:5px;
+z-index:9999;
+}

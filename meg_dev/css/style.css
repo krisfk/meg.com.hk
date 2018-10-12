@@ -1,0 +1,34 @@
+html {
+	width: 100%; height: 100%;
+}
+body {
+	width: 100%; height: 100%;
+}
+body {
+	min-width: 960px;
+}
+body{
+	font-family: "arial", "微軟正黑體" ;
+}
+#header {
+	left: 0px; top: 38px; width: 100%; height: 108px; position: fixed; z-index: 1;
+}
+#header .inner {
+	margin: 0px auto; width: 960px;
+}
+
+#nav {
+	margin-top: 12px;
+}
+#nav li a {
+	width: 160px; height: 44px; overflow: hidden; float: left; display: block;
+}
+#nav li a img {
+	margin-top: -44px;
+}
+#nav li a:hover img {
+	margin-top: 0px;
+}
+.border{
+	border:1px solid #a9a9a9;
+}

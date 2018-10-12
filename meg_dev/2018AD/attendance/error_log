@@ -1,0 +1,5 @@
+[27-Feb-2018 02:52:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/2018AD/attendance/func.php on line 115
+[27-Feb-2018 07:44:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/2018AD/attendance/report.php on line 63
+[27-Feb-2018 08:09:15 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/2018AD/attendance/report.php on line 48
+[27-Feb-2018 08:09:29 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/2018AD/attendance/report.php on line 48
+[27-Feb-2018 08:19:33 UTC] PHP Fatal error:  Call to undefined function get_staff_name() in /home/megcom/public_html/2018AD/attendance/admin.php on line 116

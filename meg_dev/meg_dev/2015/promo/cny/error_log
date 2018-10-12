@@ -1,0 +1,14 @@
+[06-Dec-2015 15:28:38 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[06-Dec-2015 15:28:38 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[27-Dec-2015 12:43:33 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[27-Dec-2015 12:43:33 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[28-Dec-2015 23:02:07 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[28-Dec-2015 23:02:07 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[31-Jan-2016 08:29:10 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[31-Jan-2016 08:29:10 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[31-Jan-2016 08:29:11 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[31-Jan-2016 08:29:11 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[31-Jan-2016 22:18:48 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[31-Jan-2016 22:18:48 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[31-Jan-2016 22:18:49 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[31-Jan-2016 22:18:49 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82

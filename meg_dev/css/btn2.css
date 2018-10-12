@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*home*/
+
+
+#MyBlog{
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 20%;  /*設置垂直位置*/
+   right: 0px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    /*background: #ffffff;  /*背景顏色*/
+   
+    border-radius: 1px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+   
+}
+#MyBlog:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+    right: 10px;
+
+}
+#MyBlog #title{
+    padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}

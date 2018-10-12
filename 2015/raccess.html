@@ -1,0 +1,117 @@
+﻿<meta charset="UTF-8">
+<p align="center"><img src="raccess/logo.jpg" width="1000" height="80" alt="Logo" /></p>
+<p align="center"><img src="raccess/bannera.jpg" width="1000" height="300" alt="Banner1" /><br />
+<textarea name="tou" cols="100" rows="15" readonly="true" id="tou">
+香港駕駛學院免費提供無線上網服務
+
+香港駕駛學院免費提供無線上網服務(本服務)使用條款及條件
+
+以下是使用本服務的條款及條件，務請細閱。
+
+1. 接受
+一旦使用本服務，即表示你同意接受這些條款及條件。
+
+2. 你確認本服務並無為任何傳送資料加密，並同意你必須承擔由此引致的一切風險。
+
+3. 收費
+香港駕駛學院免費提供本服務。
+
+4. 可用服務範圍
+可使用本服務的範圍可能不時更改,不會預先通知。
+
+5. 免責聲明
+5.1. 香港駕駛學院並不保證用戶可成功登入互聯網使用本服務，也不保證本服務不受干擾、完成無誤、不含病毒或不含其他有害成分。你須承擔使用本服務的一切責任及風險。
+
+5.2. 對於因你使用本服務而直接或間接引致的任何費用、申索、開支、債務、損害賠償及法律程序(包括間接性、附帶性、懲戒性、倍計的、專項的、懲罰性或相應而生的損害賠償)，香港駕駛學院以及其所屬人員、僱員和代理人不會承擔任何法律責任。
+
+6. 彌償
+如你使用本服務，或在與之有關連的情況下，引致香港駕駛學院以及其所屬人員、僱員及代理人(統稱為「受償方」)蒙受或須承擔任何費用、申索、開支、債務、損害賠償及法律程序，你同意向受償方作出十足彌償。
+
+7. 限制
+使用本服務時，不得進行非法活動，當中包括但不限於侵犯任何人士的知識產權、非法入侵他人電腦、散播電腦病毒、網上襲擊等。
+
+8. 一般條款
+香港駕駛學院可能隋時修訂這些條款及條件，不會預先通知。
+
+9. 如你違反這些條款及條件，或因香港駕駛學院全權酌情決定的任何其他理由，香港駕駛學院可隨時阻止你使用本服務，不會預先通知。
+
+Free Wi-Fi Internet Access provided by Hong Kong School of Motoring
+
+Terms and Conditions for use of the Wireless and Internet Service (the “Service”) provided by the Hong Kong School of Motoring (the “HKSM”)
+
+These Terms and Conditions govern your use of the Service. Please read them carefully.
+
+1.Acceptance
+By using the Service, you agree to accept these Terms and Conditions.
+
+2.You acknowledge that the Service provided does not encrypt any data sent or received and agree that you shall bear all the risks arising therefrom.
+
+3.Charges
+The Service is provided on a free of charge basis.
+
+4. Availability
+Availability of Service is subject to change from time to time without prior notice.
+
+5. Disclaimers of warranties and liability
+5.1. The HKSM does not warrant that a user can successfully log on to the service. Nor does the HKSM warrant that the Service will be uninterrupted, error-free, free of viruses or other harmful components. You assume full responsibility and risk for use of the Service.
+
+5.2. The HKSM, its officers, employees and agents are not liable for any costs, claims, expenses, liabilities, damages and proceedings whatsoever and however arising directly or indirectly from your use of the Service including any indirect, incidental, exemplary, multiple, special, punitive or consequential damages.
+
+6. Indemnity
+You agree to indemnify the HKSM, its officers, employees and agents collectively the “Indemnitees” in full from and against all costs, claims, expenses, liabilities, damages and proceedings whatsoever and howsoever suffered or incurred by any of the Indemnitees arising out of or in connection with your use of the Service.
+
+7. Restriction
+You are not allowed to perform illegal activities including but not limited to infringement of any person’s intellectual property rights, hacking, virus distribution, cyber attacks when using the Service.
+
+8. General 
+The HKSM may amend these Terms and Conditions at anytime without prior notice to you.
+
+9. The HKSM may prevent your access to the Service at anytime without prior notice to you if you breach any provision of these Terms and Conditions or for any other reason at the HKSM’s sole discretion.
+
+  </textarea>
+</p>
+<p align="center">
+  點擊「Connect」開始使用無線上網<br />
+Click &quot;Connect&quot; to start using Wi-Fi service </p>
+<form method="post" action="http://192.168.101.2:9997/login">
+  <div align="center">
+  <input type="Submit" name="ok" value="Connect" id="acceptBtn">
+
+  <input type="hidden" name="username" value="ruckususer">
+  <input type="hidden" name="password" value="ruckususer">
+  </div>
+</form>
+
+<p align="center"><a href="#" onclick="clickBanner()"><img src="raccess/bannerb.jpg" width="1000" height="300" alt="Banner1" /></a></p>
+<p align="center"><a href="http://www.hksm.com.hk/tc">The Hong Kong School of Motoring </a></p>
+
+<iframe id="iframe" src="raccess_detail.html" id="frame" style="display:none"></iframe>
+
+<style>
+  #acceptBtn{
+    background-color: #ccc;
+    border: 1px solid #888;
+    padding: 20px 40px;
+    font-size: 26px;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+  }
+
+</style>
+
+<script type="text/javascript" src="raccess/jquery-1.11.1.min.js"></script>
+<script>
+	function clickBanner(){
+    var r = confirm("I agree to the Terms & Conditions");
+
+    if(r = true){
+  		$('#iframe').contents().find('form').submit();
+  		setTimeout(function(){
+  			window.location.href = 'http://www.hksm.com.hk/web_check.php';
+  		},1000); 
+    }
+
+}
+</script>

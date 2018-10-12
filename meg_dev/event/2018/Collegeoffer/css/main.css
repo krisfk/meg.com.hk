@@ -1,0 +1,357 @@
+* {
+	font-family: "微軟正黑體";
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	.topMenu {
+		background-color: black;
+		color: white;
+		font-size: 28px;
+		text-align: center;
+	}
+	.topMenu img {
+		height: 30px;
+	}
+	.rBtn {
+		padding: 0 15%;
+		float: center;
+		text-align: center;
+	}
+	.rBtn br {
+		display: none;
+	}
+	.mainBtn_1 {
+		text-align: left;
+	}
+	.mainBtn_2 {
+		text-align: left;
+	}
+	.mainBtn_3 {
+		text-align: left;
+	}
+	.mainBtn br {
+		display: none;
+	}
+	.botLine {
+		display: none;
+	}
+	.mainMenu {
+		padding-top: 5%;
+	}
+	.vContainer {
+		padding-bottom: 95%;
+	}
+	.bContainer {
+		display: none;
+	}
+	.phoneBook {
+		font-size: 24px;
+	}
+	.phoneNum {
+		color: rgb(0, 0, 0);
+		font-family: 微軟正黑體,verdana,arial,helvetica,sans-serif;
+		font-size: 28px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+	.topMenu {
+		background-color: black;
+		color: white;
+		font-size: 28px;
+	}
+	.topMenu img {
+		height: 30px;
+	}
+	.mainMenu {
+		padding-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	.topMenu {
+		background-color: black;
+		color: white;
+		font-size: 28px;
+		padding: 25px 10%;
+	}
+	.mainBtn {
+		padding: 5px 10%;
+	}
+	.mainSurvey {
+		padding: 0px 10%;
+	}
+	.subBtn {
+		padding: 5px 10%;
+	}
+	.rBtn {
+		float: right;
+		text-align: center;
+	}
+	.topMenu img {
+		height: 35px;
+	}
+	.videoPlayer {
+		padding: 0px 15%;
+	}
+	.vPadding {
+		padding: 5%;
+	}
+	.mainMenu {
+		padding-top: 8%;
+	}
+	.vContainer {
+		padding-bottom: 107%;
+	}
+/*	.topBtn_5 {
+		display: none;
+	}
+*/
+	.phoneBook {
+		font-size: 28px;
+	}
+	.phoneNum {
+		color: rgb(0, 0, 0);
+		font-family: 微軟正黑體,verdana,arial,helvetica,sans-serif;
+		font-size: 40px;
+	}
+	.phoneNum br {
+		display: none;
+	}
+	.pTitle br {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 850px) {
+	.topMenu img {
+		height: 40px;
+	}
+	.mainMenu {
+		padding-top: 12%;
+	}
+	.vContainer {
+		padding-bottom: 102%;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.vContainer {
+		padding-bottom: 97%;
+	}	
+}
+
+@media only screen and (min-width: 1000px) {
+	.topMenu {
+		font-size: 28px;
+	}
+	.topMenu img {
+		height: 50px;
+	}
+	.mainMenu {
+		padding-top: 13%;
+	}
+	.vContainer {
+		padding-bottom: 92%;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.vContainer {
+		padding-bottom: 82%;
+	}	
+}
+
+@media only screen and (min-width: 1200px) {
+	.vContainer {
+		padding-bottom: 74%;
+	}	
+}
+
+@media only screen and (min-width: 1300px) {
+	.vContainer {
+		padding-bottom: 69%;
+	}	
+}
+
+@media only screen and (min-width: 1400px) {
+	.vContainer {
+		padding-bottom: 65%;
+	}	
+}
+
+@media only screen and (min-width: 1500px) {
+	.videoPlayer {
+		padding: 0px 25%;
+	}
+	.mainBtn {
+		padding: 5px 25%;
+	}
+	.mainSurvey {
+		padding: 0px 25%;
+	}
+	.subBtn {
+		padding: 5px 25%;
+	}
+	.topMenu {
+		padding: 5px 25%;
+	}
+	.mainMenu {
+		padding-top: 15%;
+	}
+	.vContainer {
+		padding-bottom: 70%;
+	}
+	.rBtn {
+		float: right;
+		text-align: center;
+		padding: 2px 0px 0px 0px;
+	}
+	.lBtn {
+		float: left;
+		text-align: left;
+	}
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+/*    border: 1px solid red; /*border for view confrim*/
+}
+
+.container_m {
+	width: 100%;
+	text-align: center;
+}
+
+.mainBtn {
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+}
+
+.main {
+    width: 75%;
+    float: left;
+}
+
+.vContainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+	max-width: 640px;
+}
+
+.rBtn {
+	padding: 2px 0px 0px 0px;
+}
+
+.cImg  {
+	text-align: center;
+}
+
+.botLine {
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+}
+
+.subBtn {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+
+.banner {
+	width: 60%;
+}
+
+.phoneBook {
+	font-family: 微軟正黑體,verdana,arial,helvetica,sans-serif;
+	color: #0000FF;
+}
+
+.pTitle {
+	font-size: 60px;
+	font-family: 微軟正黑體,verdana,arial,helvetica,sans-serif;
+	color: darkorange;
+}
+
+.rBtn {
+	border-style: inset;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.rBtn:hover {
+	border-style: inset;
+	border-radius: 8px;
+	color: lightblue;
+	cursor: pointer;
+}
+
+body {
+	background-image: url(https://meg.com.hk/event/2017/Collegeoffer/img/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}

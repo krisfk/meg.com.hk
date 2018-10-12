@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Responsive Content Slider</title>
+		<meta name="description" content="Blueprint: Responsive Content Slider" />
+		<meta name="keywords" content="responsive, content, slider, jquery, css3, fluid, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+
+			</header>	
+			<div class="main">
+				<div id="cbp-contentslider" class="cbp-contentslider">
+					<ul>
+						<li id="slide1">
+							<h3 class="icon-wolf">MEG</h3>
+							<div>
+								<div class="cbp-content">
+									<object data=http://www.meg.com.hk/tc/index.html width="1000" height="350"> <embed src=http://www.meg.com.hk/tc/index.html width="1000" height="350"> </embed> Error: Embedded data could not be displayed. </object>
+									</div>
+							</div>
+						</li>
+						<li id="slide2">
+							<h3 class="icon-rabbit">HKSM</h3>
+							<div>
+								<div class="cbp-content">
+									<object data=http://www.hksm.com.hk/tc/index.html width="1000" height="350"> <embed src=http://www.hksm.com.hk/tc/index.html width="1000" height="350"> </embed> Error: Embedded data could not be displayed. </object>
+									</div>
+							</div>
+						</li>
+						<li id="slide3">
+							<h3 class="icon-aligator">A1</h3>
+							<div>
+								<div class="cbp-content">
+									<object data=http://a1driving.com.hk/index.html width="1000" height="350"> <embed src=http://a1driving.com.hk/index.html width="1000" height="350"> </embed> Error: Embedded data could not be displayed. </object>
+									</div>
+							</div>
+						</li>
+						<li id="slide4">
+							<h3 class="icon-turtle">Freeway</h3>
+							<div>
+								<div class="cbp-content">
+									<object data=http://freewaydriving.com.hk/catalog/index.php width="1000" height="350"> <embed src=http://freewaydriving.com.hk/catalog/index.php width="1000" height="350"> </embed> Error: Embedded data could not be displayed. </object>
+									</div>
+							</div>
+						</li>
+						<li id="slide5">
+							<h3 class="icon-platypus">leinam</h3>
+							<div>
+								<div class="cbp-content">
+									<object data=http://www.leinam.com.hk/site/ width="1000" height="350"> <embed src=http://www.leinam.com.hk/site/ width="1000" height="350"> </embed> Error: Embedded data could not be displayed. </object>
+									</div>
+							</div>
+						</li>
+					</ul>
+					<nav>
+						<a href="#slide1" class="icon-wolf"><span>MEG</span></a>
+						<a href="#slide2" class="icon-rabbit"><span>HKSM</span></a>
+						<a href="#slide3" class="icon-aligator"><span>A1</span></a>
+						<a href="#slide4" class="icon-turtle"><span>Freeway</span></a>
+						<a href="#slide5" class="icon-platypus"><span>leinam</span></a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpContentSlider.min.js"></script>
+		<script>
+			$(function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpContentSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease-in-out',
+					// current item's index
+					current : 0
+				}
+				- destroy:
+				$( selector ).cbpContentSlider( 'destroy' );
+				*/
+
+				$( '#cbp-contentslider' ).cbpContentSlider();
+			});
+		</script>
+	</body>
+</html>

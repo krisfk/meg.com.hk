@@ -1,0 +1,74 @@
+﻿<?php
+// if ($_POST):
+
+	// $name = $_POST['name'];
+	// $email = $_POST['email'];
+	// $subject = $_POST['subject'];
+	// $message = $_POST['message'];
+
+	$name = 'test';
+	$email = 'sales@meghongkong.com';
+	$subject = 'test';
+	$message = 'test';
+	
+	$target_person = array("barryli@hksm.com.hk");
+	$default_subject = "IAM Legacy - Contact Us";
+	$contact_message = "Name: ".$name. "<br/>\r\n";
+	$contact_message .= "Email: ".$email. "<br/>\r\n";;
+	$contact_message .= "Subject: ".$subject. "<br/>\r\n";
+	$contact_message .= "Message: ".$message. "\r\n";
+
+	$headers = "From: " . "\r\n" . "Reply-To: " . "\r\n";
+	$headers .= "Return-Path: \r\n";
+	$headers .= "Organization: \r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset="UTF-8"' . "\r\n";
+	$headers .= "X-Mailer: PHP/" . phpversion();
+	
+	include("./class.phpmailer.php");
+	include("./class.smtp.php");
+
+	$mail=new PHPMailer();
+
+	$mail->IsSMTP();
+	$mail->SMTPAuth   = true;
+	$mail->IsHTML(true); // send as HTML
+
+	$mail->SMTPAuth   = true;                  // enable SMTP authentication
+	$mail->SMTPSecure = "";                 // sets the prefix to the servier (ssl / tls)
+	$mail->SMTPDebug = 2;
+
+	$mail->Host       = "superhub.hk";		
+	$mail->Port       = 587;
+	$mail->Username   = "sales@meghongkong.com";
+	$mail->Password   = "canonbox448";
+	//$mail->SMTPDebug = 2;
+	$mail->From       = "sales@meghongkong.com";
+	$mail->FromName   = "IAM Legacy";
+	$mail->Subject    = $default_subject;
+	$mail->Body       = $contact_message;
+	//$mail->Body      .= "ㄐㄐㄐ";
+	
+	foreach ($target_person as $person) {
+	
+		/* $result = mail($person, $default_subject, $contact_message, $headers);
+		if (!$result){
+			echo ("Mail to " . $person . " was NOT successful!\r\n");
+		} */
+		$mail->AddAddress($person);
+		//$mail->AddBCC("");
+		$mail->AddReplyTo("sales@meghongkong.com");
+		try {
+		  $mail->Send();
+		} catch (phpmailerException $e) {
+		  echo $e->errorMessage(); //Pretty error messages from PHPMailer
+		} catch (Exception $e) {
+		  echo $e->getMessage(); //Boring error messages from anything else!
+		}
+
+
+		
+	}
+
+// endif;
+?>

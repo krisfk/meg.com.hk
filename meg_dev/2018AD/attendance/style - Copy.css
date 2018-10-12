@@ -1,0 +1,332 @@
+/* CSS Document */
+
+/* Reset CSS */
+*{margin:0;padding:0}html{height:100%;min-width:1024px;}body{line-height:1}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}address,caption,cite,code,dfn,em,strong,h,var{font-style:normal;font-weight:normal}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}caption,th{text-align:left}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}ol,ul{list-style:none}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{text-decoration: none; margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}img{border:0}
+
+body{
+    font-family:"微軟正黑體", "arial";
+   
+}
+
+.container{
+        display: block;
+    width: 500px;
+    margin: 20px auto 0 auto;
+    position: relative;
+    /* padding: 50px 0 700px 0; */
+    padding: 0 0 700px 0;
+}
+.h_menu{
+    background: rgba(255, 255, 255, 0.7490196078431373);
+    padding: 0 0 20px 0;
+}
+
+.h_menu li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+
+.h_menu li a{
+    color: #6c6e71;
+    display: block;
+    height: 40px;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0 10px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 24px;
+    transition: background 0.2s ease;
+}
+
+.h_menu li a:hover{
+    background: #333333;
+    color: #fff;
+}
+
+.h_menu li a.active{
+        background: #f59d2d;
+    color: #fff;
+}
+
+
+.search {
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    height: 20px;
+    border-radius: 24px;
+    /* border: none; */
+    /* border-bottom: 1px solid; */
+    border-style: solid;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid #595959;
+    font-weight: bold;
+    outline: 0;
+}
+
+
+.result-table{
+    margin: 20px auto 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+
+.admin-table{
+    width: 500px;
+    border: 1px solid #000;
+}
+
+
+.result-table th,.result-table td,
+.admin-table th,.admin-table td
+{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #595959;
+}
+
+
+.edit-result-btn{
+         display: block;
+    background: #938996;
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #595959;
+    outline: 0;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.result-tr.hide{
+    display: none;
+}
+
+
+
+.edit-result-btn:hover,
+.save-price-no-btn:hover,
+.edit-price-no-btn:hover,
+.edit-form-save-btn:hover,
+.edit-form-cancel-btn:hover,
+.rfid-input-btn:hover,
+.rfid-back-button:hover,
+.rfid-input-confirm-button:hover,
+.edit-form-save-btn
+{
+        background: #99969a;
+
+}
+
+.price-no-div{
+        display: block;
+    float: left;
+    width: 100%;
+    height: 33px;
+    margin: 20px 0 0 0;
+}
+
+
+.edit-price-no-btn{
+ display: inline;
+    /* display: block; */
+    background: #938996;
+    border-radius: 6px;
+    padding: 1px 7px;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #595959;
+    /* width: 101px; */
+    font-size: 14px;
+}
+
+
+.save-price-no-btn{
+    display: none;
+    /* display: block; */
+    background: #938996;
+    border-radius: 6px;
+    padding: 1px 7px;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #595959;
+    /* width: 101px; */
+    font-size: 14px;
+}
+
+.price-input-value{
+    display: none;
+        margin: 0 5px 0 0;
+    width: 50px;
+    text-align: center;
+
+}
+
+.no-price-txt,.price-span-value{
+    padding: 0 5px 0 0;
+}
+
+.admin-table th{
+    text-align: center;
+}
+
+.admin-table td{
+    border: 1px solid #595959;
+    text-align: center;
+}
+
+.form-blk .col-1{
+     font-weight: bold;
+    width: 150px;
+    text-align: left;
+    background: #595959;
+    color: #fff;
+}
+
+.form-blk  td{
+    padding: 5px ;
+    text-align: left;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+
+.form-blk h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding:5px 0 30px 5px;
+}
+
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  width:auto;
+  max-width: 440px;
+  margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.edit-form-save-btn,
+.edit-form-cancel-btn,
+.rfid-input-btn,
+.rfid-input-confirm-button
+{
+        display:  inline-table;
+    background: #938996;
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #595959;
+    outline: 0;
+    width: 50px;
+    font-size: 16px;
+    margin: 20px 5px 0 0;
+}
+
+
+
+.form-blk {
+    text-align: center;
+}
+
+.form-blk table{
+    margin: 0 auto 0 auto;
+}
+
+input.staff-id-val
+{
+    width: 69px;
+        border-radius: 8px;
+    padding: 5px;
+}
+
+select.price-status-val
+{
+      width: 83px;
+        border-radius: 8px;
+    padding: 5px;
+}
+
+.rfid-statement{
+        position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    vertical-align: middle;
+    /* line-height: 220px; */
+    display: table-cell;
+    font-size: 26px;
+    color: #000;
+    display: none;
+    border-radius: 10px;
+}
+
+.rfid-statement .txt{
+    font-weight: bold;
+    margin: 30px 0 10px 0 ;
+}
+
+.rfid-back-button{
+display: inline-table;
+    background: #938996;
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #595959;
+    outline: 0;
+    width: 50px;
+    margin: 20px  0 0 0;
+    font-size: 16px;
+}
+
+.rfid-icon{
+    width: 350px;
+}
+
+.form-blk td.rfid-col-1{
+    text-align: right;
+}
+
+.rfid-code-div{
+    opacity: 0;
+}
+
+.rfid-staff-info-table td{
+    font-size: 20px;
+    
+}
+
+.heading-title{
+	    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 50px 0;
+}
+
+.hksm-logo{
+	margin: 30px auto 0 auto;
+	display: table;
+	
+}
+
+.no-result-blk{
+    display: table;
+    /* border: 1px solid; */
+    /* width: 190px; */
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 50px 0 50px 0; */
+    margin: 30px auto 0 auto;}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* Basic font style */
+body{
+	color: #2a1c1e;
+	background-image: url("../img/pattern2.png");
+	font-family: 'arial', '新細明體', sans-serif;
+	font-size: 12px;
+}
+
+/* Headings style */
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-size: 12px;
+}
+
+
+/* Paragraph style */
+p{
+	margin: 0;
+}
+
+p.attention{
+}
+
+p.supplement{
+}
+
+
+/* List style */
+ol,ul,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Image style */
+img {
+border: 0;
+}
+
+a img {
+vertical-align: bottom;
+}
+
+
+/* Link style */
+a:link {
+color: #676767;
+text-decoration: none;
+}
+
+a:visited  {
+color: #676767;
+text-decoration: none;
+}
+
+a:hover,a:active,a:focus {
+color: #676767;
+text-decoration: underline;
+}
+
+
+/* Form style */
+form{
+margin: 0;
+padding: 0;
+}
+
+label{
+cursor: pointer;
+}
+
+
+/* toAnchors */
+#toAnchors {
+position: absolute;
+text-indent: -100em;
+top: 0;
+left: 0;
+}
+
+#toAnchors ul {
+list-style-type: none;
+list-style-position: outside;
+margin: 0;
+padding: 0;
+}
+
+#toAnchors ul li {
+text-indent: -100em;
+}
+
+
+/* separate hr */
+hr.separate{
+display: none;
+}

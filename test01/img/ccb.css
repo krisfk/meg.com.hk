@@ -1,0 +1,234 @@
+body {
+	background-image: url(bg.jpg);
+	background-repeat:repeat;
+	background-position:center;
+	background-color:#120300;
+	MIN-WIDTH: 990px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-RIGHT: 0px; 
+	PADDING-TOP: 0px
+	font-size: 12px; color: #545454; font-family: "arial";
+	scrollbar-3dlight-color:#000000; 
+	scrollbar-arrow-color:#000000; 
+	scrollbar-base-color:#000000; 
+	scrollbar-darkshadow-color:#000000; 
+	scrollbar-face-color:#b5d3ff; 
+	scrollbar-highlight-color:#ffffff; 
+	scrollbar-shadow-color:#a8b6cb; 
+	scrollbar-track-color:#a8b6cb;
+}
+#iRFloating{
+	position:absolute;top:100;left:1000; z-index:30;
+}
+#centered {
+	POSITION:relative; TEXT-ALIGN: center;  PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 100%;PADDING-RIGHT: 0px; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px; z-index:1; margin:0 auto;
+}
+#top {
+	POSITION: absolute; TEXT-ALIGN: center;  PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; MIN-WIDTH: 990px; WIDTH: 100%; PADDING-RIGHT: 0px; TOP: 0px; left:0px;  PADDING-TOP: 0px;  z-index:8; 
+}
+#main {
+	POSITION:absolute; TEXT-ALIGN: center;  PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; MIN-WIDTH: 990px; WIDTH: 100%; PADDING-RIGHT: 0px; TOP: 340px; left:3px;  PADDING-TOP: 20px;  z-index:5; 
+	background-image: url(bottom_bg.jpg);
+	background-repeat: no-repeat;
+	background-position:center bottom;
+}
+
+.bottom_bg{
+	background-image: url(bottom_bg.jpg);
+	background-repeat: no-repeat;
+	background-position:center bottom;
+}
+.index_1 {
+	FONT-SIZE: 11px; COLOR: #555555; LINE-HEIGHT: 14px
+}
+.index_1 A:link {
+	COLOR: #555555
+}
+.index_1 A:visited {
+	COLOR: #555555
+}
+.index_1 A:active {
+	COLOR: #555555
+}
+.index_1 A:hover {
+	COLOR: #cc6600
+}
+.index_2 {
+	FONT-SIZE: 12px; COLOR: #555555; LINE-HEIGHT: 16px
+}
+.index_3 {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 16px
+}
+.index_3 A:link {
+	COLOR: #dcf276
+}
+.index_3 A:visited {
+	COLOR: #dcf276
+}
+.index_3 A:active {
+	COLOR: #dcf276
+}
+.index_3 A:hover {
+	COLOR: #ffffff
+}
+.index_4 {
+	FONT-SIZE: 12px; COLOR: #cc6600; LINE-HEIGHT: 16px;
+}
+.index_4 A:visited {
+	FONT-SIZE: 12px; COLOR: #6b4100; LINE-HEIGHT: 16px;
+}
+.index_4 A:active {
+	FONT-SIZE: 12px; COLOR: #ffae00; LINE-HEIGHT: 16px;
+}
+.index_4 A:hover {
+	FONT-SIZE: 12px; COLOR: #ffae00; LINE-HEIGHT: 16px;
+}
+.index_5 {
+	FONT-SIZE: 12px; COLOR: #555555; LINE-HEIGHT: 16px
+}
+.index_5 A:link {
+	COLOR: #555555
+}
+.index_5 A:visited {
+	COLOR: #555555
+}
+.index_5 A:active {
+	COLOR: #555555
+}
+.index_5 A:hover {
+	COLOR: #c5528e
+}
+.index_6 {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 16px
+}
+.index_6 A:link {
+	COLOR: #ffffff
+}
+.index_6 A:visited {
+	COLOR: #ffffff
+}
+.index_6 A:active {
+	COLOR: #ffffff
+}
+.index_6 A:hover {
+	COLOR: #ffff33
+}
+.index_7 {
+	FONT-SIZE: 12px; COLOR: #009999; LINE-HEIGHT: 16px
+}
+.index_7 A:link {
+	COLOR: #009999
+}
+.index_7 A:visited {
+	COLOR: #009999
+}
+.index_7 A:active {
+	COLOR: #009999
+}
+.index_7 A:hover {
+	COLOR: #cc6600
+}
+.index_8 {
+	FONT-SIZE: 12px; COLOR: #814e20; LINE-HEIGHT: 16px
+}
+.index_8 A:link {
+	COLOR: #814e20
+}
+.index_8 A:visited {
+	COLOR: #814e20
+}
+.index_8 A:active {
+	COLOR: #814e20
+}
+.index_8 A:hover {
+	COLOR: #d97226
+}
+.index_9 {
+	FONT-SIZE: 12px; COLOR: #526932; LINE-HEIGHT: 16px
+}
+.index_9 A:link {
+	COLOR: #526932
+}
+.index_9 A:visited {
+	COLOR: #526932
+}
+.index_9 A:active {
+	COLOR: #526932
+}
+.index_9 A:hover {
+	COLOR: #009999
+}
+.index_10 {
+	FONT-SIZE: 12px; COLOR: #2c6766; LINE-HEIGHT: 16px
+}
+.index_10 A:link {
+	COLOR: #2c6766
+}
+.index_10 A:visited {
+	COLOR: #2c6766
+}
+.index_10 A:active {
+	COLOR: #2c6766
+}
+.index_10 A:hover {
+	COLOR: #3366ff
+}
+.header1 {
+	FONT-SIZE: 16px; COLOR: #920000; LINE-HEIGHT: 20px; font-weight:bold;
+}
+.textarea1 {
+	FONT-SIZE: 12px; COLOR: #555555; LINE-HEIGHT: 14px; overflow:auto;
+	background-color:transparent; border:0px; width:630px; height:400px;
+}
+.orange_table{
+	background:#ffc075;
+	FONT-SIZE: 12px; COLOR: #cc6600; LINE-HEIGHT: 18px; font-weight:bold;
+}
+.brown_table{
+	background:#ecd777;
+	FONT-SIZE: 12px; COLOR: #655611; LINE-HEIGHT: 18px; font-weight:bold;
+}
+.blue_table{
+	background:#69badc;
+	FONT-SIZE: 12px; COLOR: #164b61; LINE-HEIGHT: 18px; font-weight:bold;
+}
+.green_table{
+	background:#9dbd57;
+	FONT-SIZE: 12px; COLOR: #4e6913; LINE-HEIGHT: 18px; font-weight:bold;
+}
+.purple_table{
+	background:#9c64b6;
+	FONT-SIZE: 12px; COLOR: #48175e; LINE-HEIGHT: 18px; font-weight:bold;
+}
+.header_brown {
+	FONT-SIZE: 16px; COLOR: #655611; LINE-HEIGHT: 24px; font-weight:bold;
+}
+.header_blue {
+	FONT-SIZE: 16px; COLOR: #164b61; LINE-HEIGHT: 24px; font-weight:bold;
+}
+.header_green {
+	FONT-SIZE: 16px; COLOR: #4e6913; LINE-HEIGHT: 24px; font-weight:bold;
+}
+.header_purple {
+	FONT-SIZE: 16px; COLOR: #48175e; LINE-HEIGHT: 24px; font-weight:bold;
+}
+.red{
+	FONT-SIZE: 12px; COLOR: #b01100; LINE-HEIGHT: 18px
+	}
+.brown{
+	FONT-SIZE: 12px; COLOR: #844400; LINE-HEIGHT: 18px
+}
+.green{
+	FONT-SIZE: 12px; COLOR: #478400; LINE-HEIGHT: 18px
+}
+.blue{
+	FONT-SIZE: 12px; COLOR: #005d84; LINE-HEIGHT: 18px
+}
+.purple{
+	FONT-SIZE: 12px; COLOR: #652288; LINE-HEIGHT: 18px
+}
+.white_table{
+	background:#ffffff;
+}

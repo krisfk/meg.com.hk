@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* slide fade */
+#abgne_fade_pic {
+	position: relative;
+	width: 1000px;
+	height: 649px;
+}
+#abgne_fade_pic a.ad {
+	position: absolute;
+}
+#abgne_fade_pic .control {
+	position: absolute;
+	left: 161px;
+	top: 0px;
+}
+
+/* Slide move */
+#abgneBlock {
+	width: 628px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	/*border: 0px solid #ccc;*/
+}
+#abgneBlock ul.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	width: 9999px;
+	height: 100%;
+}
+#abgneBlock ul.list li {
+	float: left;
+	width: 628x;
+	height: 100%;
+}
+#abgneBlock .list img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+#abgneBlock ul.playerControl {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 3px;
+	right: 0px;
+	height: 21px;
+}
+#abgneBlock ul.playerControl li.current { 
+	background-position: 0px -21px;

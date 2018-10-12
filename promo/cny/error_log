@@ -1,0 +1,28 @@
+[26-Dec-2016 08:19:37 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[26-Dec-2016 08:19:37 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[26-Dec-2016 08:19:37 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[26-Dec-2016 08:19:37 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[07-Jan-2017 11:49:34 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[07-Jan-2017 11:49:34 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[07-Jan-2017 11:49:34 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[07-Jan-2017 11:49:34 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[13-Jan-2017 13:47:27 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[13-Jan-2017 13:47:27 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[13-Jan-2017 13:47:27 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[13-Jan-2017 13:47:27 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[18-Jan-2017 17:42:10 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[18-Jan-2017 17:42:10 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[18-Jan-2017 17:42:10 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[18-Jan-2017 17:42:10 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[22-Jan-2017 10:03:01 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[22-Jan-2017 10:03:01 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[22-Jan-2017 10:03:01 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[22-Jan-2017 10:03:01 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[01-Feb-2017 12:41:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[01-Feb-2017 12:41:23 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[01-Feb-2017 12:41:23 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[01-Feb-2017 12:41:23 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[10-Mar-2017 15:58:22 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 81
+[10-Mar-2017 15:58:22 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 82
+[10-Mar-2017 15:58:22 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190
+[10-Mar-2017 15:58:22 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/cny/Savemeg_reg.php on line 190

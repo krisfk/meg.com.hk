@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<title>MEG十二星座駕駛之道</title>
+<head>
+<meta http-equiv="content-language" content="zh-hk">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+*{
+	margin:0;
+	padding:0;
+	font-family: "微軟正黑體", arial;
+	
+}
+body{
+	background:#000000;
+}
+ul, li{
+	display:none;
+}
+a{
+	color:#fff;
+}
+#wrapper{
+	height:900px;
+	width:100%;
+	margin:0 auto;
+	background:url(img/bg.jpg) top center no-repeat;
+	opacity:0;
+}
+#container{
+	position:relative;
+	width:900px;
+	margin:0 auto;
+}
+#wheel{
+	position:relative;
+	margin:70px auto 10px;
+	background:url(img/wheel.png) top center no-repeat;
+	width:776px;
+	height:776px;
+	opacity:0;
+}
+#wheel .logo{
+	position:absolute;
+	width:188px;
+	top:320px;
+	left:290px;
+	
+}
+
+.zodiac_01{
+	position:absolute;
+	width:95px;
+	height:83px;
+	top:80px;
+	left:270px;
+	-moz-transform:rotate(-15deg);
+	-webkit-transform:rotate(-15deg);
+	-o-transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg);
+	transform:rotate(-15deg);
+}
+.zodiac_02{
+	position:absolute;
+	width:93px;
+	height:86px;
+	top:145px;
+	left:150px;
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+.zodiac_03{
+	position:absolute;
+	width:88px;
+	height:82px;
+	top:270px;
+	left:80px;
+	-moz-transform:rotate(-75deg);
+	-webkit-transform:rotate(-75deg);
+	-o-transform:rotate(-75deg);
+	-ms-transform:rotate(-75deg);
+	transform:rotate(-75deg);
+}
+.zodiac_04{
+	position:absolute;
+	width:107px;
+	height:64px;
+	top:420px;
+	left:70px;
+	-moz-transform:rotate(-105deg);
+	-webkit-transform:rotate(-105deg);
+	-o-transform:rotate(-105deg);
+	-ms-transform:rotate(-105deg);
+	transform:rotate(-105deg);
+}
+.zodiac_05{
+	position:absolute;
+	width:118px;
+	height:76px;
+	top:540px;
+	left:140px;
+	-moz-transform:rotate(-135deg);
+	-webkit-transform:rotate(-135deg);
+	-o-transform:rotate(-135deg);
+	-ms-transform:rotate(-135deg);
+	transform:rotate(-135deg);
+}
+.zodiac_06{
+	position:absolute;
+	width:123px;
+	height:75px;
+	top:620px;
+	left:255px;
+	-moz-transform:rotate(-165deg);
+	-webkit-transform:rotate(-165deg);
+	-o-transform:rotate(-165deg);
+	-ms-transform:rotate(-165deg);
+	transform:rotate(-165deg);
+}
+.zodiac_07{
+	position:absolute;
+	width:84px;
+	height:78px;
+	top:610px;
+	right:270px;
+	-moz-transform:rotate(165deg);
+	-webkit-transform:rotate(165deg);
+	-o-transform:rotate(165deg);
+	-ms-transform:rotate(165deg);
+	transform:rotate(165deg);
+}
+.zodiac_08{
+	position:absolute;
+	width:90px;
+	height:74px;
+	top:550px;
+	right:150px;
+	-moz-transform:rotate(135deg);
+	-webkit-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+	-ms-transform:rotate(135deg);
+	transform:rotate(135deg);
+}
+.zodiac_09{
+	position:absolute;
+	width:76px;
+	height:79px;
+	top:430px;
+	right:80px;
+	-moz-transform:rotate(105deg);
+	-webkit-transform:rotate(105deg);
+	-o-transform:rotate(105deg);
+	-ms-transform:rotate(105deg);
+	transform:rotate(105deg);
+}
+.zodiac_10{
+	position:absolute;
+	width:88px;
+	height:79px;
+	top:280px;
+	right:70px;
+	-moz-transform:rotate(75deg);
+	-webkit-transform:rotate(75deg);
+	-o-transform:rotate(75deg);
+	-ms-transform:rotate(75deg);
+	transform:rotate(75deg);
+}
+.zodiac_11{
+	position:absolute;
+	width:103px;
+	height:80px;
+	top:160px;
+	right:140px;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+.zodiac_12{
+	position:absolute;
+	width:96px;
+	height:88px;
+	top:80px;
+	right:260px;
+	-moz-transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
+	-o-transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+	transform:rotate(15deg);
+}
+.txt{
+	/*position:relative;*/
+	margin:0 auto;
+	color:#0d2864;
+	font-size:16px;
+	width:188px;
+	text-align:center;
+}
+
+#footer{
+	width:900px;
+	margin:0 auto;
+	opacity:0;
+}
+#copyright ul{
+	float:left;
+	display:inline;
+}
+#copyright li{
+	display:inline-block;
+	padding:0 20px;
+	border-right:#FFF 1px solid;
+}
+#copyright li:last-child{
+	border-right:#FFF 0px solid;
+}
+#sns{
+	margin-top:10px;
+	float:right;
+	display:inline;
+	font-size:30px;
+}
+#sns ul{
+	float:left;
+	display:inline;
+}
+#sns li{
+	display:inline-block;
+	padding:0 5px;
+}
+
+.button{
+	opacity:0.5;	
+}
+
+.button:hover{
+	opacity:1;
+}
+
+/* Shrink */
+.hvr-shrink {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="container">
+    	
+    	<div id="wheel">
+    	  
+        
+        <div class="zodiac_01"><a class="video hvr-shrink"  title="魔羯座" href="https://www.youtube.com/v/eLcn0zYHOE8?autoplay=1"><img src="img/capricorn.png" /></a></div>
+        <div class="zodiac_02"><a class="soon hvr-shrink"  title="水瓶座" href="img/soon_02.png"><img src="img/aquarius_b.png" /></a></div>
+        <div class="zodiac_03"><a class="video hvr-shrink"  title="雙魚座" href="https://www.youtube.com/v/wGD1skzN_kk?autoplay=1"><img src="img/pisces.png" /></a></div>
+        <div class="zodiac_04"><a class="soon hvr-shrink"  title="白羊座" href="img/soon_02.png"><img src="img/aries_b.png" /></a></div>
+        <div class="zodiac_05"><a class="soon hvr-shrink"  title="金牛座" href="img/soon_02.png"><img src="img/taurus_b.png" /></a></div>
+        <div class="zodiac_06"><a class="soon hvr-shrink"  title="雙子座" href="img/soon_02.png"><img src="img/gemini_b.png" /></a></div>
+        <div class="zodiac_07"><a class="video hvr-shrink"  title="巨蟹座" href="https://www.youtube.com/v/eqA1E496tEM?autoplay=1"><img src="img/cancer.png" /></a></div>
+        <div class="zodiac_08"><a class="soon hvr-shrink"  title="獅子座" href="img/soon_02.png"><img src="img/leo_b.png" /></a></div>
+        <div class="zodiac_09"><a class="video hvr-shrink"  title="處女座" href="https://www.youtube.com/v/7rzlRQunR6k?autoplay=1"><img src="img/virgo.png" /></a></div>
+        <div class="zodiac_10"><a class="soon hvr-shrink"  title="天秤座" href="img/soon_02.png"><img src="img/libra_b.png" /></a></div>
+        <div class="zodiac_11"><a class="soon hvr-shrink"  title="天蠍座" href="img/soon_02.png"><img src="img/scorpio_b.png" /></a></div>
+        <div class="zodiac_12"><a class="soon hvr-shrink"  title="射手座" href="img/soon_02.png"><img src="img/sagittarius_b.png" /></a></div>
+        
+        <div class="logo"><a href="http://www.meg.com.hk" target="_blank" class="hvr-shrink"><img src="img/meg_logo.png" /></a>
+        	<div class="txt">請按頁內星座觀看影片</div>
+          </div>
+        
+      </div>
+    </div>
+	<div id="footer">
+    	<div id="copyright">
+    		<ul>
+    		<li><a href="http://www.meg.com.hk" target="_blank" class="button"><img src="img/meg.png" /></a></li>
+    		<li><a href="http://hksm.com.hk" target="_blank" class="button"><img src="img/hksm.png" /></a></li>
+    		</ul>
+    	</div>
+    	<div id="sns">
+        	<ul>
+        	<li><a href="https://www.facebook.com/meglimited" target="_blank" class="button"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/meg_driving/" target="_blank" class="button"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=hk.meg.android" target="_blank" class="hvr-shrink"><img src="img/googleplay.png" /></a></li>
+            <li><a href="https://itunes.apple.com/hk/app/xue-cheno.1/id416072313?mt=8" target="_blank" class="hvr-shrink"><img src="img/appstore.png" /></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+// JavaScript Document
+$(document).ready(function()
+  {
+	$("#wrapper").animate({opacity: 1}, {duration: 500});
+	$("#footer").delay(500)
+				.animate({opacity: 1}, {duration: 500});
+	$("#wheel").delay(800)
+				.animate({bottom: "+=20", opacity: 1}, {duration: 1000});
+    
+				
+});
+</script>
+
+
+<!--fancybox-->
+<!-- Add jQuery library -->
+	<!script type="text/javascript" src="./fancyBox/lib/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="./fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./fancyBox/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="./fancyBox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="./fancyBox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="./fancyBox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="./fancyBox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="./fancyBox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="./fancyBox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    
+<script type="text/javascript">
+jQuery(document).ready(function() {
+
+	$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+	
+	$(".soon").fancybox({
+		beforeShow: function () {
+			if (this.type == "image") {
+				$(".fancybox-skin").css({
+					backgroundColor: "transparent"
+				});
+			}
+		}
+	});
+	
+});
+</script>
+
+
+</body>
+</html>

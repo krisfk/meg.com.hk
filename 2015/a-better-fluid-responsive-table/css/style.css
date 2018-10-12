@@ -1,0 +1,55 @@
+table#miyazaki { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: "微軟正黑體", "新細明體 ", "arial";
+  font-weight: 100; 
+  background: #474648; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
+  width:100%;
+}
+
+table#miyazaki thead th { font-weight: bold; }
+table#miyazaki thead th, table#miyazaki tbody td { 
+  padding: .8rem; font-size: 16px;
+}
+table#miyazaki tbody td { 
+  padding: .8rem; font-size: 16px;
+  color: #444; background: #eee; 
+}
+
+table#miyazaki tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+@media screen and (min-width: 640px) {
+table#miyazaki thead th:first-child,
+table#miyazaki tbody tr td:first-child { 
+    width:100px;
+  }
+}
+
+
+@media screen and (max-width: 639px) {
+  table#miyazaki caption { background-image: none; }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td { 
+    display: block; padding: .6rem; 
+	border-bottom: 1px solid #ddd; 
+  }
+  
+  
+
+  table#miyazaki tbody tr td:first-child { 
+    background: #474648; color: #fff; 
+	display: block;
+  }
+	table#miyazaki tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+	
+	text-decoration:underline;
+    display: block;
+    width: 100%;  
+  }
+}

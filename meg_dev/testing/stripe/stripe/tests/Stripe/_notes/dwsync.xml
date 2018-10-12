@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AlipayAccountTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="ApplePayDomainTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="ApplicationFeeTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="BalanceTransactionTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="BitcoinReceiverTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="ChargeTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="CountrySpecTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="CustomerTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="EphemeralKeyTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="ExchangeRateTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="InvoiceItemTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="OAuthTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="OrderTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="PlanTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="RecipientTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="SKUTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="StripeObjectTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="SubscriptionItemTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="ThreeDSecureTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="TopupTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="TransferTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="AccountTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="ApplicationFeeRefundTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="ApiRequestorTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="CardTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="DisputeTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="InvoiceTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="PayoutTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="SourceTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="SubscriptionTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="StripeTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="WebhookTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="BalanceTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="CollectionTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="CouponTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="BankAccountTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="FileUploadTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="EventTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="OrderReturnTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="ProductTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="RefundTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="TokenTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="TransferReversalTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842600000000" Dst="0" />
+<file name="UsageRecordTest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842600000000" Dst="0" />
+</dwsync>

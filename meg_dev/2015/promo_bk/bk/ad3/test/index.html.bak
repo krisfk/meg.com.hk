@@ -1,0 +1,10 @@
+<form method="POST" action="ajax_contact.php">
+
+	<input type="text" name="name"  	value="Testing" /> <br/><br/>
+	<input type="text" name="email" 	value="test@hksm.com.hk" /> <br/><br/>
+	<input type="text" name="subject" 	value="subject" /> <br/><br/>
+	<input type="text" name="message" 	value="message" /> <br/><br/>
+	
+	<input type="submit" value="submit" />
+
+</form>

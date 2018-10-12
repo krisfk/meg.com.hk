@@ -1,0 +1,73 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<?php
+
+	$i_name = $_POST['name'];
+	$i_email = $_POST['email'];
+	$i_phone = $_POST['telephone'];
+	$i_comment = $_POST['comments'];
+
+	$error_flag = ( empty($i_name) or empty($i_email) or empty($i_comment) );
+
+	if ($error_flag) {
+
+		?><ul><?php
+			if (empty($i_name)) { ?><li>請填妥閣下之姓名 (Please fill in your name)</li><?php }
+			if (empty($i_email)) { ?><li>請填妥閣下之電郵 (Please fill in your e-mail)</li><?php }
+			if (empty($i_comment)) { ?><li>請填妥閣下之查詢內容 (Please fill in your enquiry)</li><?php }
+		?>
+			</ul>
+			<div>
+				<div>Please fill in the required field for submiting the enquiry.</div>
+				<div>請填妥查詢所需之資料。</div>
+			</div>
+		<?php
+
+	} else {
+
+		require("./PHPMailer_5.2.2/class.phpmailer.php");
+
+		$mail = new PHPMailer();
+
+		$mail->SMTPDebug  = 0; // 0 production 2 debug
+		$mail->IsHTML(true);
+
+		$mail->IsSMTP();  // telling the class to use SMTP
+		$mail->Host = "superhub.hk"; // SMTP servers
+		$mail->SMTPAuth = true; // turn on SMTP authentication
+		$mail->SMTPSecure = ""; // sets the prefix to the servier (ssl / tls)
+		$mail->Username = "sales@meghongkong.com"; // SMTP username
+		$mail->Password = "canonbox448";
+		$mail->Port = "587";
+		$mail->CharSet = 'UTF-8';
+
+		$mail->SetFrom('eric@healthywin.com', 'info');
+		// $mail->AddAddress("info@meg.hk", "info");
+		$mail->AddAddress("eric@healthywin.com", "info");
+		//$mail->AddBCC("barryli@hksm.com.hk", "Barry");
+		//$mail->AddBCC("matthewlam@hksm.com.hk", "Matthew");
+
+		$mail->Subject = "網站查詢 Website inquiries";
+
+		$mail->Body = ''
+			. 'Name: ' . $i_name . '<br>'
+			. 'Email: ' . $i_email . '<br>'
+			. 'Telephone: ' . $i_phone . '<br>'
+			. 'Details: ' . $i_comment . '<br>'
+			;
+
+		$mail->Send();
+
+		?>
+			<div>Thank you for contacting us. Our staff would get back to you very soon.</div>
+			<div>感謝閣下的查詢。我們的客戶服務專員將盡快聯絡閣下。</div>
+		<?php
+
+	}
+?>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* selete button - freeway 7th */
+
+#sub_menu		{  margin:10px auto; width:980px;  height:30px; 								}
+
+#sub_menu li	{ display:block; width:300px; height:30px; float:left; text-align:center; padding-top:10px; padding-left:340px; padding-bottom:100px;
+
+}
+
+p { 
+  background-image:url(img/daimond_eyes.jpg); 
+  background-repeat: repeat; 
+}
+
+#sub_menu li a{ display:block; color:#ffffff; text-decoration:none; font-size:32px; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius: 20px; background:#ef8f2e; border:5px solid #CCC; padding:25px; }
+
+#sub_menu li a:hover{ display:block; color:#ffffff; text-decoration:none; background:#888; border:1px solid #CCC;}
+
+#sub_menu li a.active{ display:block; color:#ffffff; text-decoration:none; background:#888; border:1px solid #CCC;}
+
+.btn .links{
+	float: auto;
+	/*按鈕高度*/
+	height: 30px;
+	/*按鈕寬度*/
+	width: 200px;
+	/*字體顏色*/
+	color: #FFFFFF;
+	/*字體大小*/
+	font-size: 32px;
+	/*按鈕主色調*/
+	background: #365c99;
+	text-decoration: none;
+	/*整體留白*/
+	padding: 20px;
+	/*底部留白*/
+	padding-bottom: 60;
+	/*方框*/
+	display: block;
+	/*透明度*/
+	opacity: 1;
+	/*邊寬及色調*/
+	border: 3px solid #CCC;
+	/*圓邊*/
+	border-radius: 20px;
+	/*圓邊*/
+	-moz-border-radius: 20px;
+	/*圓邊*/
+	-webkit-border-radius: 20px;
+}
+
+.btn .links:hover{
+	background: #888;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #CCC;
+}
+
+/*#sub_menu		{  margin:10px auto; width:100%;  height:40px;}
+
+#sub_menu li	{ display:block; width:19%;  float:left; text-align:center; padding-right:5px;
+
+}
+
+#sub_menu li a{ height:40px; }*/

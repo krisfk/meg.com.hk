@@ -1,0 +1,10 @@
+[19-Aug-2015 03:27:45 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/megcom/public_html/promo/ad3/test.php on line 2
+[19-Aug-2015 04:00:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/megcom/public_html/promo/ad3/test.php on line 42
+[19-Aug-2015 04:20:53 UTC] PHP Warning:  Creating default object from empty value in /home/megcom/public_html/promo/ad3/test.php on line 20
+[19-Aug-2015 08:43:51 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'The following From address failed: sales@meghongkong.com' in /home/megcom/public_html/PHPMailer_5.2.2/class.phpmailer.php:968
+Stack trace:
+#0 /home/megcom/public_html/PHPMailer_5.2.2/class.phpmailer.php(837): PHPMailer->SmtpSend('Date: Wed, 19 A...', 'Body\n')
+#1 /home/megcom/public_html/PHPMailer_5.2.2/class.phpmailer.php(755): PHPMailer->PostSend()
+#2 /home/megcom/public_html/promo/ad3/test.php(31): PHPMailer->Send()
+#3 {main}
+  thrown in /home/megcom/public_html/PHPMailer_5.2.2/class.phpmailer.php on line 968

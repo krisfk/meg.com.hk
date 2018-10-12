@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ApiConnection.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="Base.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="Idempotency.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="Permission.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="SignatureVerification.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="Card.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740841400000000" Dst="0" />
+<file name="Authentication.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="InvalidRequest.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="RateLimit.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842000000000" Dst="0" />
+<file name="Api.php" server="101.78.211.76/public_html/" local="131679537540000000" remote="131740842600000000" Dst="0" />
+</dwsync>

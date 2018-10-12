@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+
+<script type="text/javascript">
+function checkserAgent(){
+var userAgentInfo=navigator.userAgent;
+var userAgentKeywords=new Array("Android", "iPhone" ,"SymbianOS", "Windows Phone", "iPod", "MQQBrowser");
+var flag=false;
+if(userAgentInfo.indexOf("Windows NT")==-1){
+flag=true;
+}
+return flag;
+}
+if(checkserAgent()){
+document.location.href="whatsapp://send?abid=122&text=[[prompt]]";
+} else {
+	document.location.href="https://www.facebook.com/messages/2passstation/";
+}
+</script>
+
+</head>
+
+<script language="Javascript" type="text/javascript"> 
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    // Take the user to a different screen here.
+
+  var directPage = "whatsapp://send?text=Hello%2C%20World!&abid=eva";
+
+  location.href = directPage;
+}
+</script>
+
+<body>
+
+</body>
+</html>
+
+<a href="intent://send/0123456789#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">

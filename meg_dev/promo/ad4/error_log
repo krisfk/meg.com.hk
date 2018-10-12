@@ -1,0 +1,2 @@
+[11-Mar-2017 04:23:27 UTC] PHP Warning:  require(../../PHPMailer_5.2.2/class.phpmailer.php): failed to open stream: No such file or directory in /home/megcom/public_html/promo/ad4/Savemeg_reg.php on line 198
+[11-Mar-2017 04:23:27 UTC] PHP Fatal error:  require(): Failed opening required '../../PHPMailer_5.2.2/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/megcom/public_html/promo/ad4/Savemeg_reg.php on line 198

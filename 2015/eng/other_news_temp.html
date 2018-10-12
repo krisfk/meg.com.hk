@@ -1,0 +1,289 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+<meta http-equiv="content-language" content="en">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+
+
+<title>MEG offical website</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+
+<link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen">
+
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/df_smooth_scroll.js"></script>
+
+  <script defer="" src="../js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+
+    });
+    $(window).load(function(){
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: true,
+        slideshow: false,
+        itemWidth: 160,
+        itemMargin: 5,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: true,
+        slideshow: true,
+		slideshowSpeed: 6000,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+<scroll_headline-->
+<script src="../scroll_headline/scroll_headline.js"></script>
+
+
+  <script src="../js/jquery.easing.js"></script>
+  <script src="../js/jquery.mousewheel.js"></script>
+
+
+
+<!--cssmenu-->
+<link rel="stylesheet" href="../cssmenu/menu_styles.css">
+   <script src="../cssmenu/script.js"></script>
+
+
+
+<!--Responsive Table-->
+<script src="../a-better-fluid-responsive-table/js/prefixfree.min.js"></script>
+<link rel="stylesheet" href="../a-better-fluid-responsive-table/css/style.css">
+
+<!--nav_link-->
+<script src="../js/nav_link_eng.js"></script>
+
+
+</head>
+
+
+<body>
+
+<hr />
+<a name="top" id="top"></a>
+
+
+
+<!--headline-->
+
+<div id="headline_container">
+<div id="headline">
+<div id="top_news">
+<iframe src="./scroll_headline.html" width="100%" height="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+</div>
+
+<div id="lang">
+
+<ul>
+<li><a href="../other_news_temp.html">繁體</a></li>
+<li><a href="../sc/other_news_temp.html">簡體</a></li>
+<li><a href="other_news_temp.html" class="active">ENG</a></li>
+</ul>
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="wrap" id="toppage">
+
+
+<div id="titlelogo">
+  <div id="logo"><a id="to_index" href="#"><img src="../images/logo.png" alt="MEG"></a></div>
+  <div id="car"><a href="#"><img border="0" alt="animated car" src="../images/car.png" /></a></div>
+  <div id="car01"><a href="#"><img border="0" alt="animated car01" src="../images/car01.png" /></a></div>
+  <div id="car02"><a href="#"><img border="0" alt="animated car02" src="../images/car02.png" /></a></div>
+  
+  <div id="slogon"><img src="images/slogon.png" /></div>
+  <div id="notice">　<a href="#" id="appstore"><img src="../images/appstore.png" alt="AppStore" class="over1" style="opacity: 1;"></a><a href="#" id="googleplay"><img src="../images/googleplay.png" alt="GooglePlay" class="over1" style="opacity: 1;"></a></div>
+  
+</div>		
+
+
+<!--menu-->
+
+<div id="wrapper_menu">
+<div id="menu_container">
+
+
+<div id='cssmenu'>
+<ul>
+   <li><a id="index" href="#">Homepage</a></li>
+     
+   <li><a href='#'>Driving Courses</a>
+      <ul>
+					<li><a id="course_1" href="#">Private Car Course</a></li>
+					<li><a id="course_2" href="#">Light Goods Vehicle Course</a></li>
+					<li><a id="course_3" href="#">Motorcycle Course</a></li>
+					<li><a id="course_4" href="#">Taxi Course</a></li>
+                    <li><a id="course_5" href="#">Commercial Vehicle Course</a></li>
+	  </ul>
+   </li>
+   <li><a href='#'>Information</a>
+     <ul>
+    				<li><a id="info_1" href="#">Latest Promotions</a></li>
+                    <li><a id="info_2" href="#">Driving Schools Comparison</a></li>
+                    <li><a id="info_3" href="#">Mock Written Test</a></li>
+					<li><a id="info_4" href="#">Flow of Driving Test</a></li>
+					<li><a id="info_5" href="#">Driving Test Routes</a></li>
+                    
+				</ul>
+   </li>
+   <li class='active'><a href='#'>News</a>
+   <ul>
+                	<li><a id="latest_news" href="#">Latest News</a></li>
+					<li><a id="other_news" href="#">Other News</a></li>
+                </ul>
+   </li>
+   
+   <li><a href='#'>About us</a>
+      <ul>
+         <li><a id="company" href="#">Background</a></li>
+         <li><a id="hksm" href="#">Hong Kong School of Motoring</a></li>
+         <li><a id="freeway" href="#">Freeway Driving School</a></li>
+         <li><a id="#A1" href="#">A1 Driving School</a></li>
+      </ul>
+   </li>
+   
+   <li><a href='#'>Contact us</a>
+   <ul>
+                	<li><a id="location" href="#">Location</a></li>
+					<li><a id="enquiry" href="#">Online Enquiry</a></li>
+					<li><a id="terms" href="#">Privacy Policy</a></li>
+                </ul>
+   </li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<!--menu-->
+
+<div id="wrap-lv1_eng">
+  <div id="wrap-lv2">
+    <div id="content01_container">
+      <div class="header"><img src="../images/header_03.png"/></div>
+      <div id="sub_menu">
+        <ul>
+          <li><a id="latest_news_1a" href="#">Latest News</a></li>
+          <li><a id="other_news_1a" href="#" class="active">Other News</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+      <div class="box">
+        <p class="title">02/02/2015</p>
+        <h3>店舖代客貼安全標籤 非法頭盔充正貨</h3>
+        <div class="info" >【本報訊】對於元旦日發生學神鐵騎士在沙田穗禾路S彎炒車撞爆頭身亡事件，引發不少市民關心頭盔安全性問題。《蘋果》日前在九龍區巡視售賣電單車頭盔的店舖，發現有店舖出售「非認可防護頭盔」，更明目張膽在「山寨」頭盔上貼上安全認證標籤貼，以圖蒙混過關。根據香港法例，任何人不得出售非認可防護頭盔，否則分分鐘坐監。<br />
+          <br />
+《蘋果》日前巡視過旺角、長沙灣和九龍城一帶約20間電單車頭盔店，發現超過一半的店舖有出售、出租或陳列「非認可防護」的頭盔，當中部份來自臺灣、中國、越南和馬來西亞等，由俗稱「大頭佛」的全面罩、半耳罩都有，價錢最平的200多元便有交易。由於頭盔款式美輪美奐，色彩繽紛，有店東更直言大受電單車女車迷歡迎，但有部份職員亦會提醒顧客：「頭盔唔合DOT安全標準，學車唔得㗎，平時摣車俾阿Sir撈到你都唔得。」 <br />
+<div class="two_column"><img src="http://static.apple.nextmedia.com/images/apple-photos/apple/20150104/large/a0601a.gif" class="img_round_corner img2" /><br />
+  【《蘋果》直擊店員代貼標籤】<br />
+  ■頭盔店女店員拿出一排貼紙，全部印上「DOT」標誌。 </div>
+<div class="two_column"><img src="http://static.apple.nextmedia.com/images/apple-photos/apple/20150104/large/a0601b.gif" alt="" class="img_round_corner img2" /><br />
+  【《蘋果》直擊店員代貼標籤】<br />
+  ■女店員為顧客貼上假DOT標籤。 </div>
+<div class="clearfix"></div>
+<div class="info"><img src="http://static.apple.nextmedia.com/images/apple-photos/apple/20150104/large/04la5p16.jpg" class="img_round_corner img1" /><br />
+  ■亞林電單車負責人葉智聰指合乎安全標準的頭盔，一定有原廠認證標貼。黃學潤攝</div>
+<div class="clearfix"></div>
+<span class="subtitle">「唔鍾意可搣咗去」 </span><br />
+不過，記者發現旺角廣華街一帶頭盔店集中地，有店舖兜售非認可內地製頭盔之餘，更公然為客人在頭盔貼上「安全認證標籤」。<br />
+<br />
+記者進入其中一間頭盔店，向職員聲稱學車，欲購買平價頭盔，店員即向記者推
+          
+          介一個價值380元的內地製頭盔，記者細看，頭盔背後完全無印有運輸署規定，「DOT」（美國標準認證）、「PSC」（日本標準認證）或「E3」（歐盟標準認證）等安全認證。 <br />
+          <br />
+女店員見記者猶豫，即拍心口表示「冇問題」，「你考牌我幫你貼個標貼，可以搣得甩，你之後唔鍾意可以搣咗去，要嚟做樣，呢個（DOT）係標準」，說罷即從櫃桶中拿出一張印滿銀底黑字的「DOT」貼紙，熟練地貼在頭盔上。記者表明擔心安全問題，該女店員笑說：「（不同頭盔）等於孭LV同孭普通手袋嘅分別，安全性一樣，係牌子唔同啫！」記者見店內亦陳列多款不符合法例規定的頭盔。<br />
+<br />
+據亞林電單車負責人葉智聰表示，DOT標籤（美國標準認證）是運輸署其中一個頭盔安全認證標貼，但肯定由原廠貼上：「唔會自己貼上去，有啲中國製頭盔會貼一張貼紙上去，但貼紙係咪認可？咁就要自己清楚理解。」<br />
+<div class="info"><img src="http://static.apple.nextmedia.com/images/apple-photos/apple/20150104/large/04la5p12.jpg" class="img_round_corner img1" /><br />
+  ■記者發現頭盔店內放有疑為內地無安全認證的頭盔，混合一些符合標準的頭盔出售。</div>
+<br />
+<span class="subtitle">保險隨時無得賠</span><br />
+運輸署發言人稱，根據《道路交通（安全裝備）規例》，任何人除非戴上認可防護頭盔，並繫緊頭上，否則不得駕駛電單車或作為電單車乘客；而規例第4條規定，任何人不得出售、出租和陳列任何非認可防護頭盔，違反上述規定者，一經定罪，可判處罰款5,000元及監禁3個月。<br />
+<br />
+在駕駛電單車時佩戴無安全認證頭盔，除觸犯法例外，更隨時賠上性命，保險隨時無得賠。國際專業保險諮詢協會會長羅少雄指出：「如果證明到個安全頭盔唔合標準同唔合規格，保險公司係唔會有賠償處理。」<br />
+<br />
+來源: 蘋果日報 2015年1月4日<br />
+          <a href="http://hk.apple.nextmedia.com/news/art/20150104/18990902" target="_blank">觀看原文 </a><br />
+        </div>
+        <div class="clearfix"></div>
+        <div class="info button1" align="center" ><a href="./other_news.html">BACK</a></div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!--cooperation-->
+    <div id="cooperation">
+      <iframe src="./cooperation.html" width="100%" height="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+    </div>
+  </div>
+</div>
+
+
+<div id="footer">
+  <div id="copyright">
+  <div id="ktcopy"></div>
+  <div style="clear:both;"></div>
+</div></div>
+
+</div> 
+
+<p id="pagetop" style="display: none;"><a href="#top"><img src="../images/btn_pagetop.png" alt="Page Top" class="over1" style="opacity: 1;"></a></p> 
+
+
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+
+  ga('create', 'UA-78524347-1', 'auto');
+
+  ga('send', 'pageview');
+
+
+
+
+</script>
+
+</body></html>

@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+/* ==================================================
+
+ common
+
+================================================== */
+
+
+#hgHeader{
+width:auto!important;
+
+}
+.gcHeaders{
+width:100%;
+font-family: 'arial', '新細明體', sans-serif;
+color: #676767;
+font-size:12px;
+text-align:center;
+
+}
+.gcHeaders .wrap{
+position:fixed;
+width:100%;
+margin:0 auto 0 auto;
+text-align:left;
+zoom:1;
+z-index:9999;
+}
+.gcHeaders .wrap:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.gcHeaders h1{
+margin:0;
+font-size:1em;
+}
+.gcHeaders p{
+margin:0;
+font-family: 'arial', '新細明體', sans-serif;
+}
+.gcHeaders ul{
+margin:0;
+padding:0;
+list-style-type:none;
+font-family: 'arial', '新細明體', sans-serif;
+color: #676767;
+font-size:12px;
+}
+.gcHeaders img{
+vertical-align:top;
+border:none;
+}
+.gcHeaders form{
+margin:0;
+}
+.hide{
+display:none;
+}
+/* ==================================================
+
+ menu
+
+================================================== */
+#hgHeader .menu{
+height:100px;
+
+}
+#hgHeader .menu .colL{
+float:left;
+width:697px;
+height:66px;
+position:relative;
+zoom:1;
+}
+#hgHeader .menu .colL:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#hgHeader .menu .hgLogo{
+float:left;
+padding:0 25px 0 9px;
+}
+#hgHeader .menu p.catchCopy{
+float:left;
+}
+/* headerBnr
+------------------------- */
+#hgHeader .headerBnr{
+float:left;
+margin:3px 0 0;
+}
+/* addMenu
+------------------------- */
+#hgHeader ul.addMenu{
+float:right;
+margin-top:10px;
+margin-bottom:8px;
+text-align:right;
+overflow:hidden;
+zoom:1;
+height:11px;
+}
+#hgHeader ul.addMenu:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#hgHeader ul.addMenu li{
+float:left;
+margin-left:-1px;
+}
+/* loginInfo
+------------------------- */
+#hgHeader .loginInfoArea{
+text-align:right;
+float:right;
+min-width:160px;
+width:263px;
+}
+#hgHeader .loginInfoArea:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#hgHeader .loginInfoArea p{
+float:left;
+zoom:1;
+}
+#hgHeader .loginInfoArea .rtaCntr{
+color: #4c4c4c;
+margin-right:5px;
+font-size:11px;
+width:185px;
+}
+#hgHeader .loginInfoArea .rtaCntr em{
+font-family: 'arial', '新細明體', sans-serif;
+font-style:normal;
+font-weight:bold;
+font-size:24px;
+line-height:1.333;
+margin-right:3px;
+color:#f26522;
+}
+#hgHeader .loginInfoArea .btn {
+width:73px;
+margin-top:8px;
+}
+/* tabMenu
+------------------------- */
+#hgHeader ul.tabMenu{
+clear:both;
+zoom:1;
+padding-top:3px;
+list-style-type:none;
+background:none;
+width:960px;
+overflow:hidden;
+}
+#hgHeader ul.tabMenu:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#hgHeader ul.tabMenu li{
+_display:inline;
+float:left;
+width:140px;
+margin-right:-3px;
+z-index:1;
+}
+#hgHeader ul.tabMenu li a img.new{
+position:relative;
+left:44px;
+top:-8px;
+margin-right:-23px;
+}
+#hgHeader ul.tabMenu li.hang{
+margin-right:-4px;
+}
+/* easygameMainMemu
+------------------------- */
+#easygameMainMemu ul.tabMenu li.easy{
+position:relative;
+z-index:2;
+}
+/* coregameMainMemu
+------------------------- */
+#coregameMainMemu ul.tabMenu li.core{
+position:relative;
+z-index:2;
+}
+/* cmtyMainMemu
+------------------------- */
+#cmtyMainMemu ul.tabMenu li.cmty{
+position:relative;
+z-index:2;
+}
+/* avtrMainMemu
+------------------------- */
+#avtrMainMemu ul.tabMenu li.avtr,
+#shopMainMemu ul.tabMenu li.shop{
+position:relative;
+z-index:2;
+}
+/* hangMainMemu
+------------------------- */
+#hangMainMemu ul.tabMenu li.hang{
+position:relative;
+z-index:2;
+}
+/* spnMainMemu
+------------------------- */
+#spnMainMemu ul.tabMenu li.spn{
+position:relative;
+z-index:2;
+}
+/* ==================================================
+
+ hgSubMenu
+
+================================================== */
+.hgSubMenu:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.hgSubMenu{
+min-width:960px;
+font-family: 'arial', '新細明體', sans-serif;
+font-size:12px;
+line-height:1.333;
+text-align:center;
+}
+.hgSubMenu ul{
+position:relative;
+float:left;
+overflow:hidden;
+height:25px;
+padding-top:1px;
+padding-bottom:1px;
+}
+.hgSubMenu ul:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.hgSubMenu ul li{
+float:left;
+}
+.hgSubMenu ul li{
+position:relative;
+left:-4px;
+}
+#hgHeader #easygameMainMemu,#hgHeader #coregameMainMemu,#hgHeader #cmtyMainMemu,
+#hgHeader #avtrMainMemu,#hgHeader #shopMainMemu,#hgHeader #hangMainMemu,#hgHeader #spnMainMemu{
+height:125px;
+background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_hgheader.v02.gif) repeat-x;
+}
+#hangMainMemu .wrap{
+height:125px;
+background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 685px 98px;
+}
+#easygameSubMenu .wrap{background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 0 0;}
+#coregameSubMenu .wrap{background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 137px 0;}
+#cmtySubMenu .wrap{background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 274px 0;}
+#avtrSubMenu .wrap{background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 411px 0;}
+#shopSubMenu .wrap{background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 548px 0;}
+#spnSubMenu .wrap{background:url(http://images.hangame.co.jp/hangame/common/header/r02/default/bg_tabon.gif) no-repeat 821px 0;}
+/* ==================================================
+
+ gcSmallHeader
+
+================================================== */
+.gcSmallHeader{
+height:40px;
+background:url(http://images.hangame.co.jp/hangame/common/header/r02/slim/bg_nav.gif) repeat-x 0 0;
+}
+#blackSmallHeader{
+/*background:url(../images/header_bg.gif) repeat-x 0 0;*/
+}
+
+.gcSmallHeader ul.navi{
+float:left;
+}
+.gcSmallHeader ul.navi li{
+display:inline;
+float:left;
+padding-top:9px;
+line-height:15px;
+}
+.gcSmallHeader ul.navi li.gamecyber{
+width:100%;
+margin-right:0px;
+margin-left:0px;
+padding-top:0px;
+}
+
+.gcSmallHeader ul.navi li.link{
+margin-left:0px;
+padding-top:15px;
+}
+.gcSmallHeader ul.navi li.link a:hover{
+color:#ff9900;
+}
+.gcSmallHeader ul.navi li.share{
+margin-right:10px;
+margin-left:150px;
+padding-top:4px;
+}
+.gcSmallHeader ul.navi li.fb{
+margin-left:0px;
+padding-top:10px;
+}
+.gcSmallHeader ul.navi li.weibo{
+width:120px;
+height:30px;
+margin-left:0px;
+padding-top:10px;
+}
+/* bnrs */
+.gcSmallHeader ul.bnrs{
+float:right;
+}
+.gcSmallHeader ul.bnrs:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.gcSmallHeader ul.bnrs li{
+float:left;
+padding:2px 0 0 5px;
+}
+/* loginInfo */
+.gcSmallHeader .loginInfoArea{
+float:right;
+text-align:right;
+zoom:1;
+max-width:255px;
+}
+.gcSmallHeader .loginInfoArea:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.gcSmallHeader .loginInfoArea p{
+float:left;
+}
+.gcSmallHeader .rtaCntr{
+/width:170px;
+color: #4c4c4c;
+margin-right:5px;
+font-size:11px;
+margin-top:9px;
+width:177px;
+}
+.gcSmallHeader .rtaCntr em{
+font-family: 'arial', '新細明體', sans-serif;
+font-style:normal;
+font-weight:bold;
+font-size:17px;
+line-height:1.333;
+margin-right:3px;
+color:#f26522;
+}
+.gcSmallHeader .loginInfoArea .btn{
+margin-top:10px;
+width:73px;
+}
+#blackSmallHeader .rtaCntr{
+color:#fff;
+}
+#headerBanner {
+padding: 2px;
+text-align:center;
+background-color: #fff;
+}
+#headerBanner iframe{
+margin: 0 auto;
+}
